@@ -1,0 +1,35 @@
+int main()
+{
+
+    ifstream ifst("In.txt");
+    if (!ifst.is_open()) {
+        cout << "File is not open!" << endl;
+        exit(1);
+    }
+    else {
+        string buff1 = "";
+
+        while (true)
+        {
+            buff1 = "";
+            ifst >> buff1;
+            cout << buff1 << endl;
+            if (ifst.eof()) break;                          
+        }
+    }
+    ofstream ofst("Out.txt");
+
+    cout << "Start" << endl;
+    container* c = new container;
+    container_Init(c);
+    container_Fill(c, ifst);
+    cout << "Filled container" << endl;
+    container_Output(c, ofst);
+    container_Clear(c);
+    cout << "Empty container" << endl;
+    container_Output(c, ofst);
+    cout << "Stop" << endl;
+    ifst.close();
+    system("pause");
+    return 0;
+}
