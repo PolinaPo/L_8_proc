@@ -18,6 +18,6 @@ namespace type_phrases {
 	}
 	// вывод параметров загадки в форматируемый поток
 	void riddle_Output(struct riddle* riddle, ofstream& ofst) {
-		ofst << "Answer: " << riddle->answer << ";" << endl;
+		ofst << "\nAnswer: " << riddle->answer << ";" << endl;
 	}
 }

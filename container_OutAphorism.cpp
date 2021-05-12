@@ -14,8 +14,8 @@ namespace type_phrases {
 
 		node* curNode;
 		ofst << "Only aphorism." << endl;
-		for (int i = 0; i < list->size; i++) {
-			ofst << (i+1) << ": ";
+		for (int i = 0; i < list->size; i++) 
+        {
 			
             curNode = list->head;
             for (int j = 0; j < i; j++)
@@ -31,7 +31,7 @@ namespace type_phrases {
                 }
             }
             else
-                ofst << endl;
+                ofst << "";
 
 		}
 	}

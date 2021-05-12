@@ -1,9 +1,9 @@
-#include "phrase.h"
+Ôªø#include "phrase.h"
 
 namespace type_phrases {
 	int num_punct_marks(struct phrase* phrase) {
 		string punctM = ".,;:\"!?()-";
-		unsigned short int cnt = 0; // ŒÚ 0 ‰Ó 65535
+		unsigned short int cnt = 0; // –û—Ç 0 –¥–æ 65535
 		for (unsigned int i = 0; i < phrase->content.length(); i++) {
 			for (unsigned j = 0; j < punctM.length(); j++) {
 				if (phrase->content[i] == punctM[j]) {

@@ -12,5 +12,6 @@ namespace type_phrases {
 
 	aphorism* aphorism_Input(ifstream& ifst);
 	void aphorism_Output(struct aphorism* aphorism, ofstream& ofst);
+	void aphorism_Out(struct container* list, ofstream& ofst); //L8
 } // end type_phrases namespace
 #endif // APHORISM_H

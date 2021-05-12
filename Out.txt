@@ -1,29 +1,33 @@
 Container contains 4 elements.
+
 Author's name: aaa;
 Aphorism: aa.
 Evaluetion: 2.
 Number of punctuation marks: 1.
+
 Ñountry: vvv;
 Proverb: nnn!!!!???
 Evaluetion: 7.
 Number of punctuation marks: 7.
+
 Author's name: abc;
 Aphorism: c...ba!???
 Evaluetion: 8.
 Number of punctuation marks: 7.
+
 Answer: 123;
 Riddle: 456()!?,.??
 Evaluetion: 6.
 Number of punctuation marks: 8.
 
 Only aphorism.
-1: Author's name: aaa;
+
+Author's name: aaa;
 Aphorism: aa.
 Evaluetion: 2.
 Number of punctuation marks: 1.
-2: 
-3: Author's name: abc;
+
+Author's name: abc;
 Aphorism: c...ba!???
 Evaluetion: 8.
 Number of punctuation marks: 7.
-4: 

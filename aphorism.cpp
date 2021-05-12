@@ -17,6 +17,6 @@ namespace type_phrases {
 	}
 
 	void aphorism_Output(struct aphorism* aphorism, ofstream& ofst) {
-		ofst << "Author's name: " << aphorism->author << ";" << endl;
+		ofst << "\nAuthor's name: " << aphorism->author << ";" << endl;
 	}
 }

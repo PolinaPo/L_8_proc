@@ -2,12 +2,9 @@
 #include <fstream>
 #include "container.h"
 #include "sort.h"
+#include "aphorism.h"
 
 using namespace std;
-namespace type_phrases {
-    // Сигнатуры требуемых функций
-    void aphorism_Out(struct container* list, ofstream& ofst);
-}
 using namespace type_phrases;
 
 int main(int argc, char const *argv[])

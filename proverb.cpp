@@ -17,6 +17,6 @@ namespace type_phrases {
 	}
 
 	void proverb_Output(struct proverb* proverb, ofstream& ofst) {
-		ofst << "Ñountry: " << proverb->country << ";" << endl;
+		ofst << "\nÑountry: " << proverb->country << ";" << endl;
 	}
 }
